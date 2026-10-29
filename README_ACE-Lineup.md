@@ -7,7 +7,7 @@ Competition robots I design, print, cast, and wire myself: sumobots and a line t
 | [ACE Mega](ace-mega/) | Sumobot, aluminum chassis | 1 kg | Cytron Maker RP2040 | 2x BTS7960 | (fill in) |
 | [ACE Micro](ace-micro/) | Sumobot | 500 g | Arduino Nano | TB6612FNG | JGA25, 620 RPM |
 | [ACE Liner](ace-liner/) | Line tracer, 11-channel bar | 150 g | Arduino Nano | TB6612FNG | N20 |
-| [ACE Nano](ace-nano/) | Sumobot, built for juniors and peers to test code | (fill in) | Microbot Rover V1.3 (Nano) | TB6612FNG | (fill in) |
+| [ACE Nano](ace-nano/) | Sumobot, built for juniors and peers to test code |  | Arduino Nano| TB6612FNG | 6mm Planetary Motor |
 
 ## Math in the lineup
 
@@ -43,10 +43,10 @@ A LiPo on the Mega once smoked and its black cover ripped open. Every LiPo build
 ```
 ace-lineup/
 ├── README.md
-├── ace-micro/      README.md, firmware/ace_micro/       (add: cad/, photos/)
-├── ace-mega/       README.md, firmware/ace_mega/        (add: cad/, photos/)
-├── ace-liner/      README.md, firmware/ace_liner_v2/    (add: cad/, photos/)
-├── ace-nano/       README.md, firmware/ace_nano/        (add: cad/, photos/)
+├── ace-micro/      README.md, firmware/ace_micro/       
+├── ace-mega/       README.md, firmware/ace_mega/        
+├── ace-liner/      README.md, firmware/ace_liner_v2/    
+├── ace-nano/       README.md, firmware/ace_nano/        
 └── docs/
     ├── traction_and_speed.md
     ├── sharp_ir_distance.md
